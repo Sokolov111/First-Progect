@@ -1,0 +1,199 @@
+.customers {
+    background-color: rgb(240, 239, 239);
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.best {
+    margin-top: 100px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 146, 255);
+    text-transform: uppercase;
+}
+
+.app {
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.Cust {
+    width: 380px;
+    height: 500px;
+    border: 2px solid #000;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 50px;
+}
+
+.Cust>img {
+    position: relative;
+    width: 380px;
+    height: 220px;
+}
+
+.Cust>h3 {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.Cust>p {
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 17px;
+    font-weight: 500;
+    color: gray;
+    width: 320px;
+}
+
+.Cust>button>a {
+    color: #fff;
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.using>img {
+    width: 55%;
+    height: 600px;
+}
+
+.using>div {
+    width: 49%;
+    height: 600px;
+    position: absolute;
+    margin-left: 51%;
+    margin-top: -37%;
+    background-color: rgb(0, 146, 255);
+}
+
+.using>div>h3 {
+    margin-top: 10%;
+    margin-left: 5%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.using>div>p {
+    margin-left: 5%;
+    color: #fff;
+    width: 70%;
+    margin-top: 1%;
+}
+
+.using>div>p:last-child {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.lat {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.fast>img {
+    width: 70px;
+    margin-left: 5%;
+}
+
+.fast {
+    margin-top: 5%;
+    color: #fff;
+    margin-bottom: 10%;
+}
+
+.fast>p {
+    width: 70%;
+}
+
+.our {
+    margin-top: 10%;
+}
+
+.our>h3 {
+    color: rgb(0, 146, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.our>p {
+    font-size: 40px;
+    font-weight: 600;
+    width: 45%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+/* Вот тут доделывай  */
+
+.last {
+    display: flexbox;
+    width: 1500px;
+    height: 600px;
+    position: relative;
+}
+
+.one {
+    width: 49%;
+    height: 50%;
+}
+
+.two {
+    width: 25%;
+    height: 50%;
+}
+
+.team {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.team>h2 {
+    color: rgb(0, 146, 255);
+    text-transform: uppercase;
+    margin-right: 5%;
+    font-size: 15px;
+}
+
+.team>p {
+    font-size: 40px;
+    font-weight: 600;
+    width: 45%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+.anya {
+    width: 250px;
+    height: 100px;
+    margin-right: 8%;
+}
+
+.anya>img {
+    width: 350px;
+}
+
+.anya>p {
+    color: rgb(0, 146, 255);
+    text-transform: uppercase;
+}
+
+.anya>p,
+h3 {
+    margin-left: 50%;
+}

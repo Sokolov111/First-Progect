@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    padding-left: 1%;
+    padding-right: 3%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #091d3e;
+    z-index: 1;
+}
+
+.call {
+    width: 150px;
+}
+
+.call i {
+    font-size: 30px;
+    color: rgb(0, 146, 255);
+}
+
+.header a {
+    color: #ffff;
+}
+
+.logos {
+    background-color: #fff;
+    height: 90px;
+}
+
+.logo {
+    width: 170px;
+    z-index: 1;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.naws {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.naws>a {
+    text-transform: uppercase;
+    margin-left: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.naws>a:first-child {
+    color: rgb(0, 146, 255);
+}
+
+.qu {
+    width: 160px;
+    height: 50px;
+    background-color: rgb(0, 146, 255);
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.qu a {
+    margin-top: 20px;
+}
+
+.container-home {
+    margin-left: 8%;
+}
+
+.home {
+    background-image: url(../images/Bgs/bg1.jpg);
+    color: #fff;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-content {
+    padding-right: 30%;
+}
+
+.home-content>h3 {
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.home-content>p {
+    width: 60%;
+    font-size: 18;
+}
+
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* .pages {
+    height: 600px;
+} */
+
+.about {
+    margin-top: 9%;
+    width: 40%;
+}
+
+.about>h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about>h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(0, 146, 255);
+}
+
+.about>p {
+    width: 80%;
+    color: gray;
+    font-weight: 400;
+}
+
+.about>p:last-child {
+    margin-top: 30px;
+}
+
+.hand>img {
+    width: 70px;
+    margin-top: 30px;
+}
+
+.hand>h3 {
+    font-weight: 600;
+    margin-top: 7%;
+    margin-left: 10px;
+}
+
+.hand {
+    width: 95%;
+    display: flex;
+}
+
+.about-two {
+    margin-top: 8%;
+    margin-right: 100px;
+}
+
+.robot {
+    margin-bottom: 160px;
+    margin-right: 15px;
+}
+
+.happy {
+    margin-top: -125px;
+    width: 250px;
+    height: 120px;
+    background-color: rgb(0, 146, 255);
+    color: #fff;
+    margin-bottom: 20%;
+}
+
+.happy>h3 {
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.happy>p {
+    margin-left: 30%;
+}
